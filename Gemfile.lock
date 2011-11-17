@@ -2,13 +2,13 @@ PATH
   remote: .
   specs:
     rforce (0.7)
-      builder (~> 3.0)
+      builder (~> 2.1.2)
       oauth (~> 0.4)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    builder (3.0.0)
+    builder (2.1.2)
     hoe (2.8.0)
       rake (>= 0.8.7)
     hoe-gemspec2 (1.1.0)
