@@ -29,7 +29,7 @@ module RForce
 
       children.each do |elem|
         name = elem.name.split(":").last.to_sym
-        
+
         if !elements[name]
           elements[name] = to_hash(elem)
         elsif Array === elements[name]
@@ -38,7 +38,7 @@ module RForce
           elements[name] = [elements[name]] << to_hash(elem)
         end
       end
-      
+
       return elements.empty? ? nil : elements
     end
   end

@@ -7,7 +7,7 @@ module RForce
       self[method]
     end
   end
-  
+
   class MethodHash < Hash
     include MethodKeys
   end
